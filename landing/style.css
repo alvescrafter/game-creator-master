@@ -152,6 +152,11 @@ body {
   background: white;
 }
 
+.hero-btn.tertiary {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  color: white;
+}
+
 .hero-btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
@@ -159,7 +164,7 @@ body {
 
 .site-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 22px;
   margin-top: 34px;
   align-items: stretch;
@@ -309,6 +314,22 @@ body {
   background: linear-gradient(180deg, #f7fee7, #ffffff 80%);
 }
 
+.card-library {
+  background: linear-gradient(180deg, #f5f3ff, #ffffff 80%);
+}
+
+.card-library .site-badge {
+  background: rgba(124, 58, 237, 0.12);
+  color: #6d28d9;
+}
+
+.preview-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 180px;
+  font-size: 4rem;
+}
+
 .feature-row {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -343,6 +364,12 @@ body {
   text-align: center;
   border: 1px solid rgba(15, 23, 42, 0.06);
   color: #475569;
+}
+
+@media (max-width: 1080px) {
+  .site-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 980px) {
