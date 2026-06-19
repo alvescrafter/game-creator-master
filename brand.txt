@@ -1,0 +1,50 @@
+# brand.txt — Game Creator AI Brand Identity
+
+## Canonical Name
+
+Name: Game Creator AI
+Incorrect: GameCreatorAI, GAME CREATOR AI, game creator ai, GameCreator AI, GCA
+Usage: Always write as "Game Creator AI" (three words, title case, space-separated)
+
+## Products
+
+1. Game Creator Learn
+   - Incorrect: GameCreatorLearn, Game Creator learn, GCL, Learn
+   - Usage: Always write as "Game Creator Learn" (title case)
+   - Category: Educational game generator
+
+2. Game Creator AI
+   - Incorrect: GameCreatorAI, Game Creator ai, GCA
+   - Usage: Always write as "Game Creator AI" (title case)
+   - Category: Entertainment game generator
+   - Note: Same name as the brand. Context distinguishes the brand from the product.
+
+## Domain
+
+- Primary: gamecreatorai.netlify.app
+- App 1 (Learn): aigamecreatorlearn.netlify.app
+- App 2 (Fun): aigamecreator.netlify.app
+
+## Tone
+
+- Direct, factual, educational
+- No marketing buzzwords ("revolutionary", "game-changing", "cutting-edge")
+- No superlatives ("best", "leading", "#1")
+- State features as facts, not promises
+- Example correct: "Generate unlimited games with AI. Free to use."
+- Example incorrect: "The most powerful AI game generator that will revolutionize your workflow!"
+
+## Key Facts
+
+- Both apps are free ($0)
+- No signup or account required
+- BYOK (bring your own API key) supported
+- Local model execution supported (Ollama, LM Studio)
+- No installation — runs in the browser
+- No backend, no database, no user data stored server-side
+
+## Prohibited Claims
+
+- Do not claim the apps "create" or "build" finished games — they generate game specs, prompts, and concepts
+- Do not claim AI models are hosted on this site — users provide their own API keys or local models
+- Do not claim any specific AI model is required — any supported provider works

@@ -18,6 +18,13 @@
   <link rel="preconnect" href="https://aigamecreatorlearn.netlify.app">
   <link rel="preconnect" href="https://aigamecreator.netlify.app">
 
+  <!-- AI Agent Discovery Links -->
+  <link rel="describedby" type="text/plain" href="https://gamecreatorai.netlify.app/llms.txt">
+  <link rel="alternate" type="text/markdown" href="https://gamecreatorai.netlify.app/llms-full.txt">
+  <link rel="alternate" type="text/markdown" href="https://gamecreatorai.netlify.app/sitemap.md">
+  <link rel="sitemap" type="application/xml" href="https://gamecreatorai.netlify.app/sitemap.xml">
+  <link rel="agent" type="text/markdown" href="https://gamecreatorai.netlify.app/AGENTS.md">
+
   <!-- Open Graph -->
   <meta property="og:title" content="Game Creator AI — AI-Powered Game Generator for Fun & Education">
   <meta property="og:description" content="Generate unlimited games with AI — from educational quizzes and classroom-ready learning games to arcade, platformer, and strategy builds. Connect your own API or run locally. Free to use.">
@@ -89,27 +96,122 @@
   }
   </script>
 
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Game Creator AI",
+    "url": "https://gamecreatorai.netlify.app",
+    "logo": "https://gamecreatorai.netlify.app/favicon.svg",
+    "description": "Free, browser-based platform for generating unlimited games with AI. Two apps: educational learning games and entertainment game prototyping.",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://gamecreatorai.netlify.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Landing",
+        "item": "https://gamecreatorai.netlify.app/landing/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Game Creator AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Game Creator AI is a free, browser-based platform that lets users generate unlimited games using AI. It offers two apps: Game Creator Learn for educational games and Game Creator AI for entertainment game prototyping."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Game Creator AI free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Both apps are completely free to use. There is no cost, no signup, and no account required. An optional Tip Jar is available for users who wish to support development."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an API key to use Game Creator AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you need to provide your own API key (BYOK) from a supported provider such as OpenAI, Anthropic, or Google. Alternatively, you can run a local model using Ollama or LM Studio for fully offline generation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of games can I create?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Game Creator Learn creates educational learning games with lesson structure and quizzes across subjects like maths, science, and language. Game Creator AI generates entertainment game specs for arcade, platformer, shooter, strategy, and other genres."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can teachers use Game Creator AI in the classroom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Game Creator Learn is designed specifically for teachers, tutors, and students. It creates learning games with classroom-ready themes, lesson structure, and quizzes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which AI providers are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both apps support OpenAI, Anthropic, Google, Ollama (local), LM Studio (local), and custom OpenAI-compatible API endpoints."
+        }
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page-shell">
     <header class="hero-header">
       <div class="brand-group">
-        <div class="brand-mark">🎮</div>
+        <div class="brand-mark" aria-hidden="true">🎮</div>
         <div>
           <p class="eyebrow">Game Creator AI</p>
           <h1>For FUN or EDUCATION, we have BOTH!</h1>
         </div>
       </div>
 
-      <div class="top-right">
+      <nav class="top-right" aria-label="Support and donations">
         <a class="coffee-button" href="https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600" target="_blank" rel="noopener noreferrer">
-          <span class="coffee-icon">💛</span>
+          <span class="coffee-icon" aria-hidden="true">💛</span>
           Tip Jar
         </a>
         <p class="coffee-note">If you've enjoyed creating with us, please give a donation to help keep the site up.</p>
-      </div>
+      </nav>
     </header>
+
+    <main>
 
     <section class="hero-panel">
       <p class="hero-copy">Generate as many games as you can think of — from educational adventures to playful arcade builds. Connect your own API or run locally for fast, flexible creation.</p>
@@ -185,6 +287,8 @@
         <p>Both sites are live and easy to use. Just choose your project and start generating.</p>
       </div>
     </section>
+
+    </main>
 
     <footer class="page-footer">
       <p>Made for creators who want to build games for fun and learning. Visit either site to begin your next game project.</p>

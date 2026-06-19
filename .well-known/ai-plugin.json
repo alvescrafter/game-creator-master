@@ -1,0 +1,63 @@
+{
+  "schema_version": "v1",
+  "name": "Game Creator AI",
+  "description": "Free, browser-based platform for generating unlimited games with AI. Two apps: educational learning games and entertainment game prototyping. BYOK or local model support.",
+  "contact_email": "",
+  "legal_info_url": "https://gamecreatorai.netlify.app/landing/",
+  "namespace": "gamecreatorai",
+  "capabilities": {
+    "web_search": false,
+    "code_execution": false,
+    "image_generation": false,
+    "game_generation": true
+  },
+  "apps": [
+    {
+      "name": "Game Creator Learn",
+      "type": "web_app",
+      "url": "https://aigamecreatorlearn.netlify.app/",
+      "description": "Educational game generator for teachers, tutors, and students. Creates learning games with lesson structure, quizzes, and classroom-ready themes.",
+      "category": "education",
+      "price": "0",
+      "price_currency": "USD",
+      "capabilities": [
+        "educational_game_generation",
+        "lesson_structure_creation",
+        "quiz_generation",
+        "classroom_ready_themes"
+      ]
+    },
+    {
+      "name": "Game Creator AI",
+      "type": "web_app",
+      "url": "https://aigamecreator.netlify.app/",
+      "description": "Entertainment game generator for rapid prototyping. Builds arcade, platformer, shooter, strategy, and other game types with prompt-driven creation.",
+      "category": "entertainment",
+      "price": "0",
+      "price_currency": "USD",
+      "capabilities": [
+        "game_spec_generation",
+        "arcade_game_creation",
+        "platformer_game_creation",
+        "shooter_game_creation",
+        "strategy_game_creation",
+        "art_style_customization",
+        "mechanic_fine_tuning"
+      ]
+    }
+  ],
+  "ai_providers": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Ollama",
+    "LM Studio",
+    "Custom OpenAI-compatible"
+  ],
+  "permissions": {
+    "training": "allowed",
+    "search": "allowed",
+    "citation": "allowed",
+    "indexing": "allowed"
+  }
+}

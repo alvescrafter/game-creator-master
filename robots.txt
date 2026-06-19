@@ -1,4 +1,47 @@
+# robots.txt — Game Creator AI
+# AI crawlers are explicitly allowed. See llms.txt for content summary.
+
 User-agent: *
 Allow: /
+
+# --- AI Crawlers (explicitly allowed) ---
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# --- Sitemap ---
 
 Sitemap: https://gamecreatorai.netlify.app/sitemap.xml

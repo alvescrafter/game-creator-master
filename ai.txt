@@ -1,0 +1,38 @@
+# ai.txt — Game Creator AI AI Permissions Declaration
+
+# This file declares how AI systems may use content from this site.
+# Site: https://gamecreatorai.netlify.app
+
+name: Game Creator AI
+domain: gamecreatorai.netlify.app
+contact: https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600
+
+# Permissions
+training: yes
+search: yes
+citation: yes
+indexing: yes
+ai_input: yes
+
+# What AI systems may do:
+# - Crawl and index all pages
+# - Use content for model training
+# - Return content in search results and answers
+# - Cite and quote content with attribution to "Game Creator AI"
+# - Extract and summarize page content
+# - Follow links to both apps for deeper content extraction
+
+# What AI systems should NOT do:
+# - Claim to be affiliated with or endorsed by Game Creator AI
+# - Present generated game specs as finished, playable games
+# - Imply that AI models are hosted on this site (users provide their own)
+
+# Preferred citation format:
+# "Game Creator AI (https://gamecreatorai.netlify.app)"
+
+# Related files:
+# llms.txt — Curated site summary
+# llms-full.txt — Full-text content
+# ai.json — Structured content map
+# brand.txt — Brand identity rules
+# robots.txt — Crawler directives

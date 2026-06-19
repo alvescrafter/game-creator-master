@@ -1,0 +1,138 @@
+# Game Creator AI — Full Content for AI Ingestion
+
+> Game Creator AI is a free, browser-based platform that lets users generate unlimited games using AI. It offers two separate web apps: one for educational learning games (Game Creator Learn) and one for entertainment game prototyping (Game Creator AI). Both support bring-your-own-API (BYOK) or local model execution. No installation, no signup, no cost.
+
+---
+
+## Overview
+
+Game Creator AI is a hub page that links to two AI-powered game generator web apps. The platform is built with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools, no backend. Both apps run entirely client-side in the browser and are hosted on Netlify.
+
+**Domain:** https://gamecreatorai.netlify.app
+
+---
+
+## App 1: Game Creator Learn
+
+**URL:** https://aigamecreatorlearn.netlify.app/
+
+**Category:** Educational
+
+**Description:** Create learning games with built-in lesson structure, quizzes, and classroom-ready themes. Perfect for teachers, tutors, and students.
+
+**Key features:**
+- Build learning games in maths, science, language, and more
+- Built-in lesson structure with quiz generation
+- Classroom-ready themes and formatting
+- Fast prompt-driven generation with educational focus
+- Free to use ($0)
+
+**Who it's for:** Teachers, tutors, students, homeschooling parents, educational content creators.
+
+**How to use:**
+1. Open https://aigamecreatorlearn.netlify.app/ in any modern browser
+2. Enter your API key (OpenAI, Anthropic, Google) or connect a local model (Ollama, LM Studio)
+3. Describe the learning game you want (subject, topic, age group, difficulty)
+4. The AI generates a complete educational game with lesson structure and quizzes
+
+---
+
+## App 2: Game Creator AI
+
+**URL:** https://aigamecreator.netlify.app/
+
+**Category:** Entertainment / Fun
+
+**Description:** Generate creative game ideas, mechanics, and full prompt specs for entertainment and rapid prototyping. Build arcade, platformer, shooter, strategy and more.
+
+**Key features:**
+- Build arcade, platformer, shooter, strategy, and other game types
+- Fine-tune tone, art style, and gameplay mechanics
+- Prompt-driven game spec generation
+- Use your own API or run locally for custom workflows
+- Free to use ($0)
+
+**Who it's for:** Indie game developers, hobbyists, game jam participants, rapid prototypers, creative writers.
+
+**How to use:**
+1. Open https://aigamecreator.netlify.app/ in any modern browser
+2. Enter your API key (OpenAI, Anthropic, Google) or connect a local model (Ollama, LM Studio)
+3. Describe the game you want to create (genre, style, mechanics, tone)
+4. The AI generates a complete game spec with mechanics, art direction, and prompt details
+
+---
+
+## Platform Features
+
+### Unlimited Games
+Generate unlimited game concepts, full prompts, and production-ready requirements with a single click. No caps, no quotas, no daily limits.
+
+### API Friendly
+Connect your own API, adapt to local models, and use the exact flow that matches your creative pipeline. Supported providers:
+- OpenAI (GPT models)
+- Anthropic (Claude models)
+- Google (Gemini models)
+- Ollama (local models, runs offline)
+- LM Studio (local models, runs offline)
+- Custom OpenAI-compatible endpoints
+
+### Ready to Launch
+Both sites are live and easy to use. Just choose your project and start generating. No installation, no signup, no account required.
+
+---
+
+## Pricing
+
+Both apps are free to use. Price: $0 USD.
+
+An optional Tip Jar is available for users who wish to support ongoing development: https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600
+
+---
+
+## Technical Details
+
+- **Tech stack:** Vanilla HTML, CSS, JavaScript — no frameworks, no build tools
+- **Hosting:** Netlify static hosting
+- **Backend:** None — both apps run entirely client-side
+- **Database:** None — no user data is stored server-side
+- **User accounts:** None — no signup or login required
+- **API keys:** Stored locally in the browser (localStorage), never transmitted to any server except the chosen AI provider
+- **Privacy:** No tracking, no analytics, no cookies beyond what the browser natively uses
+
+---
+
+## AI Agent Discovery Files
+
+This site provides the following files for AI agent discovery and comprehension:
+
+| File | Purpose |
+|------|---------|
+| `/llms.txt` | Curated site summary for AI models |
+| `/llms-full.txt` | This file — full-text content for deep ingestion |
+| `/robots.txt` | Crawler directives (AI crawlers explicitly allowed) |
+| `/sitemap.xml` | XML sitemap with lastmod dates |
+| `/sitemap.md` | Markdown sitemap for agent scanning |
+| `/AGENTS.md` | Instructions for coding agents (Copilot, Cursor, Claude Code) |
+| `/brand.txt` | Brand identity and naming rules |
+| `/ai.json` | Structured content map and AI permissions |
+| `/ai.txt` | AI permissions declaration |
+| `/.well-known/ai-plugin.json` | ChatGPT plugin manifest |
+| `/.well-known/agents.json` | A2A agent discovery (Google protocol) |
+| `/.well-known/agent-skills/index.json` | Agent Skills Discovery index |
+
+---
+
+## AI Permissions
+
+- **Training:** Allowed — AI systems may use this content for model training
+- **Search:** Allowed — AI systems may index and return this content in search results
+- **Citation:** Allowed — AI systems may cite and quote this content with attribution
+- **Indexing:** Allowed — AI crawlers may index all pages
+
+---
+
+## Contact
+
+For questions, feedback, or support, visit the Tip Jar page or open an issue on the project repository.
+
+**Tip Jar:** https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600

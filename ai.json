@@ -1,0 +1,97 @@
+{
+  "site": {
+    "name": "Game Creator AI",
+    "description": "Free, browser-based platform for generating unlimited games with AI. Two apps: educational learning games and entertainment game prototyping. BYOK or local model support.",
+    "url": "https://gamecreatorai.netlify.app",
+    "landing_page": "https://gamecreatorai.netlify.app/landing/",
+    "favicon": "https://gamecreatorai.netlify.app/favicon.svg",
+    "og_image": "https://gamecreatorai.netlify.app/game%20creator%20pic.png",
+    "language": "en",
+    "tech_stack": ["HTML", "CSS", "JavaScript"],
+    "hosting": "Netlify",
+    "frameworks": [],
+    "build_tools": [],
+    "backend": false,
+    "database": false,
+    "user_accounts": false
+  },
+  "apps": [
+    {
+      "name": "Game Creator Learn",
+      "category": "Educational",
+      "url": "https://aigamecreatorlearn.netlify.app/",
+      "description": "Educational game generator for teachers, tutors, and students. Creates learning games with lesson structure, quizzes, and classroom-ready themes.",
+      "price": "0",
+      "price_currency": "USD",
+      "audience": ["teachers", "tutors", "students", "homeschooling parents", "educational content creators"],
+      "features": [
+        "Learning games in maths, science, language, and more",
+        "Built-in lesson structure with quiz generation",
+        "Classroom-ready themes and formatting",
+        "Prompt-driven generation with educational focus"
+      ]
+    },
+    {
+      "name": "Game Creator AI",
+      "category": "Entertainment",
+      "url": "https://aigamecreator.netlify.app/",
+      "description": "Entertainment game generator for rapid prototyping. Builds arcade, platformer, shooter, strategy, and other game types with prompt-driven creation.",
+      "price": "0",
+      "price_currency": "USD",
+      "audience": ["indie game developers", "hobbyists", "game jam participants", "rapid prototypers", "creative writers"],
+      "features": [
+        "Arcade, platformer, shooter, strategy, and other game types",
+        "Fine-tune tone, art style, and gameplay mechanics",
+        "Prompt-driven game spec generation",
+        "BYOK or local model support"
+      ]
+    }
+  ],
+  "ai_providers": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Ollama",
+    "LM Studio",
+    "Custom OpenAI-compatible endpoints"
+  ],
+  "permissions": {
+    "training": "allowed",
+    "search": "allowed",
+    "citation": "allowed",
+    "indexing": "allowed",
+    "ai_input": "allowed"
+  },
+  "key_pages": [
+    {
+      "path": "/",
+      "title": "Game Creator AI — Redirect",
+      "type": "redirect",
+      "redirects_to": "/landing/"
+    },
+    {
+      "path": "/landing/",
+      "title": "Game Creator AI — AI-Powered Game Generator for Fun & Education",
+      "type": "landing_page",
+      "description": "Hub page linking to both game creator apps with feature overview and screenshots."
+    }
+  ],
+  "discovery_files": {
+    "llms_txt": "/llms.txt",
+    "llms_full_txt": "/llms-full.txt",
+    "robots_txt": "/robots.txt",
+    "sitemap_xml": "/sitemap.xml",
+    "sitemap_md": "/sitemap.md",
+    "agents_md": "/AGENTS.md",
+    "brand_txt": "/brand.txt",
+    "ai_txt": "/ai.txt",
+    "ai_plugin_json": "/.well-known/ai-plugin.json",
+    "agents_json": "/.well-known/agents.json",
+    "agent_skills_index": "/.well-known/agent-skills/index.json"
+  },
+  "support": {
+    "tip_jar": "https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600",
+    "type": "donation",
+    "required": false
+  }
+}

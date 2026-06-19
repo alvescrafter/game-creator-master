@@ -1,0 +1,44 @@
+# Game Creator AI
+
+> Game Creator AI is a free, browser-based platform that lets users generate unlimited games using AI. It offers two separate web apps: one for educational learning games (Game Creator Learn) and one for entertainment game prototyping (Game Creator AI). Both support bring-your-own-API (BYOK) or local model execution. No installation, no signup, no cost.
+
+## Apps
+
+- [Game Creator Learn](https://aigamecreatorlearn.netlify.app/): Educational game generator for teachers, tutors, and students. Creates learning games with lesson structure, quizzes, and classroom-ready themes across maths, science, language, and more.
+- [Game Creator AI](https://aigamecreator.netlify.app/): Entertainment game generator for rapid prototyping. Builds arcade, platformer, shooter, strategy, and other game types with prompt-driven creation.
+
+## Landing Page
+
+- [Home](https://gamecreatorai.netlify.app/landing/): Hub page linking to both apps with feature overview and screenshots.
+
+## Features
+
+- Unlimited game generation — no caps, no quotas
+- BYOK (bring your own API key) — connect OpenAI, Anthropic, Google, Ollama, LM Studio, or custom OpenAI-compatible endpoints
+- Local model support — run with Ollama or LM Studio for fully offline creation
+- Prompt-driven workflow — describe the game, get a full spec
+- Educational focus — lesson structure, quizzes, classroom-ready themes (Game Creator Learn)
+- Entertainment focus — arcade, platformer, shooter, strategy, fine-tune tone, art style, mechanics (Game Creator AI)
+- Free to use — both apps are $0
+
+## Support
+
+- [Tip Jar](https://buy.stripe.com/5kQ9AVgCY5dJ77TbIA9R600): Optional donation to support ongoing development.
+
+## Discovery Files
+
+- [robots.txt](https://gamecreatorai.netlify.app/robots.txt): Crawler directives (AI crawlers explicitly allowed)
+- [sitemap.xml](https://gamecreatorai.netlify.app/sitemap.xml): XML sitemap
+- [sitemap.md](https://gamecreatorai.netlify.app/sitemap.md): Markdown sitemap
+- [AGENTS.md](https://gamecreatorai.netlify.app/AGENTS.md): Instructions for coding agents
+- [brand.txt](https://gamecreatorai.netlify.app/brand.txt): Brand identity and naming rules
+- [ai.json](https://gamecreatorai.netlify.app/ai.json): Structured content map and AI permissions
+- [llms-full.txt](https://gamecreatorai.netlify.app/llms-full.txt): Full-text version of this file with complete page content
+
+## Technical
+
+- Tech stack: Vanilla HTML, CSS, JavaScript — no frameworks, no build tools
+- Hosting: Netlify static hosting
+- Domain: https://gamecreatorai.netlify.app
+- No backend, no database, no user accounts
+- Both apps run entirely client-side in the browser

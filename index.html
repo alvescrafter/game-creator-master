@@ -10,9 +10,17 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://gamecreatorai.netlify.app/landing/">
   <meta name="theme-color" content="#3b82f6">
+  <meta name="author" content="Game Creator AI">
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- AI Agent Discovery Links -->
+  <link rel="describedby" type="text/plain" href="https://gamecreatorai.netlify.app/llms.txt">
+  <link rel="alternate" type="text/markdown" href="https://gamecreatorai.netlify.app/llms-full.txt">
+  <link rel="alternate" type="text/markdown" href="https://gamecreatorai.netlify.app/sitemap.md">
+  <link rel="sitemap" type="application/xml" href="https://gamecreatorai.netlify.app/sitemap.xml">
+  <link rel="agent" type="text/markdown" href="https://gamecreatorai.netlify.app/AGENTS.md">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Game Creator AI — AI-Powered Game Generator for Fun & Education">
@@ -28,6 +36,95 @@
   <meta name="twitter:title" content="Game Creator AI — AI-Powered Game Generator for Fun & Education">
   <meta name="twitter:description" content="Generate unlimited games with AI — from educational quizzes and classroom-ready learning games to arcade, platformer, and strategy builds. Connect your own API or run locally. Free to use.">
   <meta name="twitter:image" content="https://gamecreatorai.netlify.app/game%20creator%20pic.png">
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Game Creator AI",
+    "url": "https://gamecreatorai.netlify.app",
+    "logo": "https://gamecreatorai.netlify.app/favicon.svg",
+    "description": "Free, browser-based platform for generating unlimited games with AI. Two apps: educational learning games and entertainment game prototyping.",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Game Creator AI",
+    "url": "https://gamecreatorai.netlify.app/landing/",
+    "description": "Generate unlimited games with AI — from educational quizzes and classroom-ready learning games to arcade, platformer, and strategy builds.",
+    "potentialAction": {
+      "@type": "ViewAction",
+      "target": [
+        "https://aigamecreatorlearn.netlify.app/",
+        "https://aigamecreator.netlify.app/"
+      ]
+    }
+  }
+  </script>
+
+  <!-- Structured Data: SoftwareApplication — Game Creator Learn -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Game Creator Learn",
+    "url": "https://aigamecreatorlearn.netlify.app/",
+    "description": "Create learning games with built-in lesson structure, quizzes, and classroom-ready themes. Perfect for teachers, tutors, and students.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: SoftwareApplication — Game Creator AI -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Game Creator AI",
+    "url": "https://aigamecreator.netlify.app/",
+    "description": "Generate creative game ideas, mechanics, and full prompt specs for entertainment and rapid prototyping. Build arcade, platformer, shooter, strategy and more.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://gamecreatorai.netlify.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Landing",
+        "item": "https://gamecreatorai.netlify.app/landing/"
+      }
+    ]
+  }
+  </script>
 </head>
 <body style="font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f8fafc; color: #0f172a;">
   <div style="text-align: center; padding: 24px; border: 1px solid rgba(15,23,42,0.08); border-radius: 18px; background: white; box-shadow: 0 20px 50px rgba(15,23,42,0.08);">

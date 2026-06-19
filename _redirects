@@ -1,0 +1,4 @@
+# Netlify _redirects — Game Creator AI
+# 301 redirect root to landing page (replaces client-side meta refresh)
+
+/  /landing/  301

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "site": {
+    "name": "Game Creator AI",
+    "url": "https://gamecreatorai.netlify.app",
+    "description": "Free, browser-based platform for generating unlimited games with AI."
+  },
+  "skills": [
+    {
+      "name": "educational-game-generation",
+      "description": "Generate learning games with lesson structure, quizzes, and classroom-ready themes for teachers, tutors, and students.",
+      "url": "/.well-known/agent-skills/game-learn/SKILL.md",
+      "category": "education",
+      "app_url": "https://aigamecreatorlearn.netlify.app/"
+    },
+    {
+      "name": "entertainment-game-generation",
+      "description": "Generate game specs, mechanics, and prompt details for arcade, platformer, shooter, strategy, and other entertainment game types.",
+      "url": "/.well-known/agent-skills/game-fun/SKILL.md",
+      "category": "entertainment",
+      "app_url": "https://aigamecreator.netlify.app/"
+    }
+  ]
+}
